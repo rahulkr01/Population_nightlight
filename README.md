@@ -19,6 +19,7 @@ R2 values for Log-Linear regression between Mean nightlight and census variables
 4. Population                   0.29
 5. Number of household          0.32
 6. Number of towns              0.28
+7. 'Number of villages Inhabited', 'Number of towns', 'Number of households', 'Population Persons', '"Area(In sq. km)"', 'Population per sq. km.', 'Marginal Worker/Non-workers', 'Literacy rate', 'Urban/Rural Household'            0.67
 
 
 Population density regression plot:
@@ -28,36 +29,29 @@ Population density regression plot:
 
 
 
+Positive outliers:
+
+'Ganderbal', 'Lakshadweep', 'East Kameng', 'Lower Dibang Valley', 'Lahul & Spiti', 'Bandipore', 'Kishtwar', 'Jamui', 'Tuensang', 'Mon'
+
+Negative outliers:
+
+'Bangalore Rural', 'Jamnagar', 'Bathinda', 'Sirsa', 'Muktsar', 'Bharuch', 'Upper Siang', 'Anjaw', ' ', 'Dibang Valley'
+  
+
+
 
 Urban household regression plot:
 
 ![urban_household_plot](Results/Urban_household.png)
 
 
+Negative outliers:
 
+'Central', 'Karaikal', 'Daman', 'Yanam', 'Mahe', 'New Delhi', 'Diu', 'Kinnaur', 'Nicobars'
 
+Positive outliers:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+'East Kameng', 'Lower Dibang Valley', 'Leh(Ladakh)', 'West Siang', 'Upper Subansiri', 'Lunglei', 'Tuensang', 'Saiha', 'Ukhrul', 'Ganderbal'
 
 References:
 1. [Night  Lights  and  Economic  Activity  in  India:  A  study  using  DMSP-OLS  night  time  images  by Laveesh  Bhandari  and  Koel  Roychowdhury  ](http://journals.sfu.ca/apan/index.php/apan/article/viewFile/59/71)
